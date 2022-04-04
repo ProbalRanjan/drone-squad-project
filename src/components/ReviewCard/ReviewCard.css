@@ -1,13 +1,12 @@
 .review-container {
     text-align: center;
     padding: 30px 20px;
-    border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .review-container:hover {
-    background-color: #ebf5e6;
+    background-color: #e6f8ff;
 }
 
 .review-container img {

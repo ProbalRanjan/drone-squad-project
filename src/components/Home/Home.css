@@ -7,29 +7,29 @@
 
 .hero-title h1 {
     font-size: 24px;
-    color: #4A4A4A;
+    /* color: #4A4A4A; */
 }
 
 .hero-title h1 span {
     font-size: 55px;
-    color: #379F00;
+    color: #00BDFE;
     font-size: 60px;
     font-weight: 600;
 }
 
 .hero-title button {
-    border: 2px solid #379F00;
+    border: 2px solid #00BDFE;
     border-radius: 40px;
-    background-color: #379F00;
+    background-color: #00BDFE;
     color: white;
     padding: 10px 35px;
     margin-top: 10px;
 }
 
 .hero-title button:hover {
-    border: 2px solid #379F00;
+    border: 2px solid #00BDFE;
     background-color: white;
-    color: #379F00;
+    color: #00BDFE;
 }
 
 .hero-image img {
