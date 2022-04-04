@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "review1",
+    "name": "Alex Martinez",
+    "review": "I Received my Drone today, and wanted to tell you how much I love it!",
+    "rating": 5,
+    "image": "./images/img-1.png"
+  },
+  {
+    "_id": "review2",
+    "name": "Chloe Lewis",
+    "review": "Affordable, stylish, awesome service. I just love Drone Squad!",
+    "rating": 5,
+    "image": "./images/img-2.png"
+  },
+  {
+    "_id": "review3",
+    "name": "Matthew Adams",
+    "review": "These Drone are my absolute favorite things to give as gifts!",
+    "rating": 5,
+    "image": "./images/img-3.png"
+  },
+  {
+    "_id": "review4",
+    "name": "Samantha Baker",
+    "review": "Thanks Drone Squad your Drone are amazing and your service is wonderful.",
+    "rating": 5,
+    "image": "./images/img-4.png"
+  },
+  {
+    "_id": "review5",
+    "name": "Jacob Moore",
+    "review": "My sister gave me this Drone for Christmas and I almost cried. It is so beautiful!",
+    "rating": 5,
+    "image": "./images/img-5.png"
+  },
+  {
+    "_id": "review6",
+    "name": "Hunter Thomas",
+    "review": "I can always find a great new addition to my wardrobe!",
+    "rating": 5,
+    "image": "./images/img-6.png"
+  },
+  {
+    "_id": "review7",
+    "name": "Logan Davis",
+    "review": "I can always find something at Drone Squad that I fall in love with instantly.",
+    "rating": 5,
+    "image": "./images/img-7.png"
+  },
+  {
+    "_id": "review8",
+    "name": "Sophia Hall",
+    "review": "The detail and quality are well-done.",
+    "rating": 5,
+    "image": "./images/img-8.png"
+  }
+]
