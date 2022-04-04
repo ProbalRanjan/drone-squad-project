@@ -5,7 +5,7 @@ nav a {
 }
 
 nav a:hover {
-    color: orange;
+    color: #379F00;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
