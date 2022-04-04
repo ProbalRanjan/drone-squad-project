@@ -3,19 +3,16 @@
     padding-bottom: 50px;
 }
 
-.review-title {
-    padding-bottom: 20px;
+.review-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #00BDFE;
+    padding-bottom: 10px;
 }
 
 .review-title p {
     margin-bottom: 0;
     font-weight: 600;
-}
-
-.review-title h2 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #00BDFE;
 }
 
 .reviews-card {
@@ -27,18 +24,14 @@
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
 
-    .review-title {
-        padding-bottom: 10px;
-    }
-
     .review-title p {
         display: none;
     }
 
     .review-title h2 {
         font-size: 24px;
+        padding-bottom: 10px;
     }
-
 
     .reviews-card {
         grid-template-columns: repeat(1, 1fr);

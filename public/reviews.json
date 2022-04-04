@@ -25,33 +25,33 @@
     "name": "Samantha Baker",
     "review": "Thanks Drone Squad your Drone are amazing and your service is wonderful.",
     "rating": 4.5,
-    "image": "./images/img-4.png"
+    "image": "./images/img-4.jpg"
   },
   {
     "_id": "review5",
     "name": "Jacob Moore",
     "review": "My sister gave me this Drone for Christmas and I almost cried. It is so beautiful!",
     "rating": 5,
-    "image": "./images/img-5.png"
+    "image": "./images/img-5.jpg"
   },
   {
     "_id": "review6",
     "name": "Hunter Thomas",
     "review": "I can always find a great new addition to my wardrobe!",
     "rating": 5,
-    "image": "./images/img-6.png"
+    "image": "./images/img-6.jpg"
   },
   {
     "_id": "review7",
     "name": "Logan Davis",
     "review": "I can always find something at Drone Squad that I fall in love with instantly.",
     "rating": 4.6,
-    "image": "./images/img-7.png"
+    "image": "./images/img-7.jpg"
   },
   {
     "_id": "review8",
     "name": "Sophia Hall",
-    "review": "The detail and quality are well-done.",
+    "review": "The detail and quality are well-done. It is so beautiful!",
     "rating": 4.5,
     "image": "./images/img-8.png"
   }

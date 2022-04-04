@@ -7,7 +7,6 @@
 
 .hero-title h1 {
     font-size: 24px;
-    /* color: #4A4A4A; */
 }
 
 .hero-title h1 span {
@@ -37,12 +36,37 @@
     margin-left: 80px;
 }
 
+.reviews-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #00BDFE;
+    padding-bottom: 10px;
+}
+
+.review-button {
+    margin-top: 40px;
+}
+
+.review-button a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #00BDFE;
+    border-radius: 40px;
+    background-color: #00BDFE;
+    padding: 10px 35px;
+}
+
+.review-button a:hover {
+    border: 2px solid #00BDFE;
+    background-color: white;
+    color: #00BDFE;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
 
     .hero-container {
         grid-template-columns: 1fr;
-        padding: 20px 0;
+        padding: 0 0 60px 0;
         text-align: center;
     }
 
@@ -59,13 +83,14 @@
     }
 
     .hero-title p {
-        font-size: 11px;
+        font-size: 14px;
+
     }
 
     .hero-title button {
-        padding: 5px 20px;
+        padding: 8px 30px;
         margin-top: 0;
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .hero-image img {
@@ -73,5 +98,16 @@
         order: 1;
         padding: 20px 0;
         margin-left: 0;
+    }
+
+    .reviews-container h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .review-button a {
+        padding: 8px 30px;
+        margin-top: 0;
+        font-size: 16px;
     }
 }

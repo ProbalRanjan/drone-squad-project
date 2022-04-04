@@ -1,5 +1,5 @@
 .navbar {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 50px 0;
 }
 
 .nav-title h1 {
@@ -24,6 +24,10 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
+
+    .navbar {
+        margin: 10px 0 20px 0;
+    }
 
     nav a {
         display: none;
