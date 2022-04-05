@@ -1,3 +1,7 @@
+.dashboard-container {
+    padding-bottom: 50px;
+}
+
 .dashboard-title h2 {
     font-size: 36px;
     font-weight: 600;

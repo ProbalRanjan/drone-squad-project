@@ -2,6 +2,39 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 40px;
     width: 750px;
+}
 
+.home-button {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.home-button a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #00BDFE;
+    border-radius: 40px;
+    background-color: #00BDFE;
+    padding: 10px 35px;
+}
+
+.home-button a:hover {
+    border: 2px solid #00BDFE;
+    background-color: white;
+    color: #00BDFE;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 472px) {
+    .error-page img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-button a {
+        padding: 8px 30px;
+        margin-top: 0;
+        font-size: 16px;
+    }
 }

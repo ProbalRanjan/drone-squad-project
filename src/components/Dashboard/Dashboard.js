@@ -8,7 +8,7 @@ const Dashboard = () => {
     const [data, setData] = useChart()
 
     return (
-        <div>
+        <div className='dashboard-container'>
             <div className='dashboard-title'>
                 <h2>DashBoard</h2>
             </div>
