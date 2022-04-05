@@ -16,7 +16,7 @@ Drone Squad is a most popular drone review website. Here you will get all types 
 
 * The [Blog](https://drone-squad.netlify.app/blog) is attached some QnA about react and web development. 
 
-* The [About](https://drone-squad.netlify.app/about) page is under construction but it will be visible soon to introduce ourselves.
+* The [About](https://drone-squad.netlify.app/about) page is contains our business history and to introduce ourselves.
 
 * All of the work at the website is incudes JSX, CSS, React and some react packages. 
 

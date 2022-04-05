@@ -66,6 +66,10 @@
         margin: 10px 0 20px 0;
     }
 
+    .nav h1 {
+        font-size: 28px;
+    }
+
     .nav-menu ul {
         display: none;
     }
@@ -76,6 +80,8 @@
 
     .hamburger {
         display: block;
+        color: #00BDFE;
+        margin-top: -15px;
     }
 
     .mob-menu ul {
@@ -85,29 +91,29 @@
         width: 100%;
         top: 60px;
         right: 0;
-        padding: 10px 0 10px 10px;
+        padding: 20px 0 20px 10px;
         background-color: #00BDFE;
         height: fit-content;
         border-radius: 10px;
+        z-index: 99999;
     }
 
     .mob-menu ul li {
-        padding: 5px;
+        padding: 6px;
         list-style: none;
         text-align: center;
     }
 
     .mob-menu a {
         text-decoration: none;
-        color: black;
-        font-weight: 600;
-        padding: 5px 15px;
+        color: white;
+        padding: 5px 50px;
         border-radius: 20px;
     }
 
     .mob-menu a:hover {
-        background-color: #00BDFE;
-        color: #ffffff;
+        background-color: black;
+        color: white;
         transition: ease-in-out 0.2s;
     }
 

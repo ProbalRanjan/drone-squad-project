@@ -17,7 +17,7 @@
     "_id": "review3",
     "name": "Matthew Adams",
     "review": "These Drone are my absolute favorite things to give as gifts!",
-    "rating": 4.4,
+    "rating": 5,
     "image": "./images/img-3.png"
   },
   {
@@ -38,7 +38,7 @@
     "_id": "review6",
     "name": "Hunter Thomas",
     "review": "I can always find a great new addition to my wardrobe!",
-    "rating": 5,
+    "rating": 4.8,
     "image": "./images/img-6.jpg"
   },
   {
@@ -53,6 +53,13 @@
     "name": "Sophia Hall",
     "review": "The detail and quality are well-done. It is so beautiful!",
     "rating": 4.5,
+    "image": "./images/img-8.png"
+  },
+  {
+    "_id": "review9",
+    "name": "Thomas Logan",
+    "review": "Great to work with would work with him anytime.",
+    "rating": 5,
     "image": "./images/img-8.png"
   }
 ]
