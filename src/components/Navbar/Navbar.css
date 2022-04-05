@@ -1,26 +1,63 @@
-.navbar {
-    margin: 10px 0 30px 0;
+.nav-bar {
+    margin: 20px 0 30px 0;
 }
 
-.nav-title h1 {
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Website Logo/Name Styles */
+.nav h1 {
     font-weight: 600;
     color: #00BDFE;
 }
 
-.nav-title span {
-    font-weight: 600;
-    color: black;
-}
-
-nav a {
+.nav a {
     text-decoration: none;
-    margin-left: 20px;
-    color: black;
-    font-weight: 600;
 }
 
-nav a:hover {
-    color: #00BDFE;
+.nav span {
+    font-weight: 600;
+    color: black;
+}
+
+
+/* Website Menu Styles */
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.nav-menu a:hover {
+    background-color: #00BDFE;
+    color: #ffffff;
+    transition: ease-in-out 0.2s;
+}
+
+.mob-menu {
+    display: none;
+}
+
+.hamburger {
+    width: 40px;
+    display: none;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 472px) {
@@ -29,8 +66,49 @@ nav a:hover {
         margin: 10px 0 20px 0;
     }
 
-    nav a {
+    .nav-menu ul {
         display: none;
+    }
+
+    .mob-menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mob-menu ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0;
+        padding: 10px 0 10px 10px;
+        background-color: #00BDFE;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .mob-menu ul li {
+        padding: 5px;
+        list-style: none;
+        text-align: center;
+    }
+
+    .mob-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        padding: 5px 15px;
+        border-radius: 20px;
+    }
+
+    .mob-menu a:hover {
+        background-color: #00BDFE;
+        color: #ffffff;
+        transition: ease-in-out 0.2s;
     }
 
 }
